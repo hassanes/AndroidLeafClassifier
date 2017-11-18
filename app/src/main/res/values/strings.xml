@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Leaf Classifier</string>
+    <string name="result">Classification Result</string>
+    <string name="toggle_camera">Toggle Camera</string>
+    <string name="detect_object">Detect Object</string>
+</resources>

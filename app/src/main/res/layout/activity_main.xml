@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/materialGray"
+    tools:context="com.hassan.leafclassifier.MainActivity">
+
+    <com.otaliastudios.cameraview.CameraView
+        android:id="@+id/cameraView"
+        android:layout_gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+
+    <ImageButton
+        android:id="@+id/btnDetectObject"
+        android:background="@drawable/ic_capture_light"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:visibility="gone" />
+
+</FrameLayout>
