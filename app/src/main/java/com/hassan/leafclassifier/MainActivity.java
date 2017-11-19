@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.mindorks.com.hassan.leafclassifier.MESSAGE";
     public static final String EXTRA_IMAGE = "com.mindorks.com.hassan.leafclassifier.IMAGE";
 
-    private static final int INPUT_SIZE = 224;
-    private static final int IMAGE_MEAN = 224;
-    private static final float IMAGE_STD = 1;
-    private static final String INPUT_NAME = "input";
+    private static final int INPUT_SIZE = 299;
+    private static final int IMAGE_MEAN = 128;
+    private static final float IMAGE_STD = 128;
+    private static final String INPUT_NAME = "Mul";
     private static final String OUTPUT_NAME = "final_result";
 
-    private static final String MODEL_FILE = "file:///android_asset/output_graph.pb";
+    private static final String MODEL_FILE = "file:///android_asset/strip_output_graph.pb";
     private static final String LABEL_FILE =
             "file:///android_asset/output_labels.txt";
 
